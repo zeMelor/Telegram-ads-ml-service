@@ -45,7 +45,7 @@ graph TD
     ETL -->|Real-time Metadata| Feat[Feature Engineering]
     Feat --> Bridge[Bridge45 Strategy]
     
-    subgraph "Strategy: Bridge45 (Segmentation)"
+    subgraph "Strategy: Bridge45 "
     Bridge --> M1[Model: DeltaTG / Small]
     Bridge --> M2[Model: LogRMSE / Large]
     Bridge --> Weight{Dynamic Weighting}
